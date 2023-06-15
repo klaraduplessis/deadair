@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://klaraduplessis.github.io/deadair/1/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "1" ] },
+    "items": [
+      {
+        "id": "https://klaraduplessis.github.io/deadair/1/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 53,
+        "items": [
+          {
+            "id": "https://klaraduplessis.github.io/deadair/1/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://klaraduplessis.github.io/deadair/1/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://drive.google.com/file/d/1io5awA4lHbTFMrh6l3BrYlTE3MPEyKxK/view?usp=sharing",
+                    "duration": 53
+                },
+                "target": "https://klaraduplessis.github.io/deadair/1/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
